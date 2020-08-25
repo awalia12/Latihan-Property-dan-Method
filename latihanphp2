@@ -1,0 +1,18 @@
+<?php
+class laptop {
+   public $pemilik;
+   public $merk;
+   public $ukuran_layar;
+
+   public function hidupkan_laptop() {
+      return "Hidupkan Laptop";
+   }
+ 
+   public function matikan_laptop() {
+      return "Matikan Laptop";
+   }
+}
+
+$laptop_ilma = new laptop();
+echo $laptop_ilma->hidupkan_laptop();
+?>
